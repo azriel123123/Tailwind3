@@ -43,20 +43,22 @@
   display: grid;
   grid-template-columns: repeat(2, 130px);
   grid-template-rows: 40px;
-  gap: 5px;
+  gap: 10px;
   margin-top: 20px;
 }
 .carousel .list .item .buttons button{
-  border: none;
-  background-color: #eee;
+  border: 3px solid cyan;
+  background-color: transparent;
+  border3px solid cyan
   letter-spacing: 3px;
   font-family: Poppins;
   font-weight: 500;
+  border: 3px solid cyan;
 }
 .carousel .list .item .buttons button:nth-child(2){
   background-color: transparent;
-  border: 1px solid #fff;
-  color: #eee;
+  border-radius: 5px; 
+  border: 3px solid cyan;
 }
 /* thumbail */
 .thumbnail{
