@@ -26,7 +26,6 @@
   transform: translateX(-50%);
   padding-right: 30%;
   box-sizing: border-box;
-  color: #fff;
   text-shadow: 0 5px 10px #0004;
 }
 .carousel .list .item .author{
@@ -59,7 +58,6 @@
 .carousel .list .item .buttons button:nth-child(2){
   background-color: transparent;
   border: 1px solid #fff;
-  color: #eee;
 }
 /* thumbail */
 .thumbnail{
