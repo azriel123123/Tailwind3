@@ -91,5 +91,4 @@ const navbar = document.querySelector('header');
         })
 
 
-        // Carousel
         
