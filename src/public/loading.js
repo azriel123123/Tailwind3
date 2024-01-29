@@ -1,5 +1,4 @@
 
-    
     const waitForImages = () => {
         const images = [...document.querySelectorAll("img")];
         const totalImages = images.length;
