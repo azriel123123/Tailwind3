@@ -622,6 +622,16 @@ video {
   height: 100%;
 }
 
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.border-spacing-4 {
+  --tw-border-spacing-x: 1rem;
+  --tw-border-spacing-y: 1rem;
+  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+}
+
 .cursor-pointer {
   cursor: pointer;
 }

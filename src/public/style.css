@@ -50,6 +50,19 @@
   margin-top: 20px;
 }
 
+.carousel .list .item .buttons button{
+  border: none;
+  background-color: #eee;
+  letter-spacing: 3px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.carousel .list .item .buttons button:nth-child(2){
+  background-color: transparent;
+  border: 1px solid cyan;
+}
+
 /* thumbail */
 .thumbnail{
   position: absolute;
@@ -189,18 +202,15 @@ ousel .list .item:nth-child(1) .content .buttons{
   overflow: hidden;
   animation: showThumbnail .5s linear 1 forwards;
 }
-
 .carousel.prev .list .item img{
   z-index: 100;
 }
-
 @keyframes showThumbnail{
   from{
       width: 0;
       opacity: 0;
   }
 }
-
 .carousel.next .thumbnail{
   animation: effectNext .5s linear 1 forwards;
 }
