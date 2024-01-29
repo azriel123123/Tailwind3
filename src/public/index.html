@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/output.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
-	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'>
     <title>Document</title>
 </head>
+
 <body class="bg-slate-500 tracking-wider text-white">
 
     <!-- Loading Start -->
-    
+    <div class="loading__wrapper">
+        <div class="loader--text">Please Wait...</div>
+        <div class="loader">
+            <span></span>
+        </div>
+    </div>
+
+
+    <svg class="icons" style="display: none;">
+        <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='328 112 184 256 328 400'
+                style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+        <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='184 112 328 256 184 400'
+                style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+    </svg>
     <!-- Loading End -->
 
     <header class="sticky t-0 z-50">
@@ -32,7 +53,9 @@
                     <li><a href="#blog" class="hover:text-cyan-400 ease-in duration-200">Blog</a></li>
                     <li><a href="#contact" class="hover:text-cyan-400 ease-in duration-200">Contact</a></li>
 
-                    <li><button class="bg-cyan-400 px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">free trial</button></li>
+                    <li><button
+                            class="bg-cyan-400 px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">free
+                            trial</button></li>
                 </ul>
             </div>
 
@@ -44,8 +67,10 @@
             <div id="menu" class="hidden bg-cyan-400 h-[100vh] absolute inset-0">
                 <ul class="h-full grid place-items-center py-20">
                     <li><a id="hLink" href="#home" class="hover:text-cyan-400 ease-in duration-200">Home</a></li>
-                    <li><a id="hLink" href="#features" class="hover:text-cyan-400 ease-in duration-200">Furniture</a></li>
-                    <li><a id="hLink" href="#testimonial" class="hover:text-cyan-400 ease-in duration-200">Testimonial</a></li>
+                    <li><a id="hLink" href="#features" class="hover:text-cyan-400 ease-in duration-200">Furniture</a>
+                    </li>
+                    <li><a id="hLink" href="#testimonial"
+                            class="hover:text-cyan-400 ease-in duration-200">Testimonial</a></li>
                     <li><a id="hLink" href="#pricing" class="hover:text-cyan-400 ease-in duration-200">Pricing</a></li>
                     <li><a id="hLink" href="#blog" class="hover:text-cyan-400 ease-in duration-200">Blog</a></li>
                     <li><a id="hLink" href="#contact" class="hover:text-cyan-400 ease-in duration-200">Contact</a></li>
@@ -56,133 +81,147 @@
         </nav>
     </header>
 
-<!-- carousel -->
-<div class="carousel">
-    <!-- list item -->
-    <div class="list">
-        <div class="item">
-            <img src="image/Peralatan Rumah.jpeg">
-            <div class="content">
-                <div class="author text-black">Zriel</div>
-                <div class="title text-black">None</div>
-                <div class="topic text-black">None</div>
-                <div class="des text-black">
-                    <!-- lorem 50 -->
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="image/Peralatan Rumah.jpeg">
+                <div class="content">
+                    <div class="author text-black">Zriel</div>
+                    <div class="title text-black">None</div>
+                    <div class="topic text-black">None</div>
+                    <div class="des text-black">
+                        <!-- lorem 50 -->
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima
+                        placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et
+                        quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at
+                        laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons text-black">
+                        <button>SEE MORE</button>
+                        <button>More</button>
+                    </div>
                 </div>
-                <div class="buttons text-black">
-                    <button>SEE MORE</button>
-                    <button>More</button>
+            </div>
+            <div class="item">
+                <img src="image/Hooh.jpeg">
+                <div class="content">
+                    <div class="author">Zriel</div>
+                    <div class="title">None</div>
+                    <div class="topic">None</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima
+                        placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et
+                        quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at
+                        laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/Hooh.jpeg">
+                <div class="content">
+                    <div class="author">Zriel</div>
+                    <div class="title">None</div>
+                    <div class="topic text-cyan-400">None</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima
+                        placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et
+                        quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at
+                        laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/Hooh.jpeg">
+                <div class="content">
+                    <div class="author">Zriel</div>
+                    <div class="title">None</div>
+                    <div class="topic text-cyan-400">None</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima
+                        placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et
+                        quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at
+                        laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="item">
-            <img src="image/Hooh.jpeg">
-            <div class="content">
-                <div class="author">Zriel</div>
-                <div class="title">None</div>
-                <div class="topic">None</div>
-                <div class="des">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="image/Peralatan Rumah.jpeg">
+                <div class="content">
+                    <div class="title text-black">
+                        Name None
+                    </div>
+                    <div class="description text-black">
+                        Description
+                    </div>
                 </div>
-                <div class="buttons">
-                    <button>SEE MORE</button>
-                    <button>SUBSCRIBE</button>
+            </div>
+            <div class="item">
+                <img src="image/Hooh.jpeg">
+                <div class="content">
+                    <div class="title">
+                        Name None
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/Hooh.jpeg">
+                <div class="content">
+                    <div class="title">
+                        Name None
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/Hooh.jpeg">
+                <div class="content">
+                    <div class="title">
+                        Name None
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="item">
-            <img src="image/Hooh.jpeg">
-            <div class="content">
-                <div class="author">Zriel</div>
-                <div class="title">None</div>
-                <div class="topic text-cyan-400">None</div>
-                <div class="des">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                </div>
-                <div class="buttons">
-                    <button>SEE MORE</button>
-                    <button>SUBSCRIBE</button>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="image/Hooh.jpeg">
-            <div class="content">
-                <div class="author">Zriel</div>
-                <div class="title">None</div>
-                <div class="topic text-cyan-400">None</div>
-                <div class="des">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                </div>
-                <div class="buttons">
-                    <button>SEE MORE</button>
-                    <button>SUBSCRIBE</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- list thumnail -->
-    <div class="thumbnail">
-        <div class="item">
-            <img src="image/Peralatan Rumah.jpeg">
-            <div class="content">
-                <div class="title text-black">
-                    Name None
-                </div>
-                <div class="description text-black">
-                    Description
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="image/Hooh.jpeg">
-            <div class="content">
-                <div class="title">
-                    Name None
-                </div>
-                <div class="description">
-                    Description
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="image/Hooh.jpeg">
-            <div class="content">
-                <div class="title">
-                    Name None
-                </div>
-                <div class="description">
-                    Description
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="image/Hooh.jpeg">
-            <div class="content">
-                <div class="title">
-                    Name None
-                </div>
-                <div class="description">
-                    Description
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- next prev -->
+        <!-- next prev -->
 
-    <div class="arrows">
-        <button id="prev"><</button>
-        <button id="next">></button>
+        <div class="arrows">
+            <button id="prev">
+                <</button> <button id="next">>
+            </button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
     </div>
-    <!-- time running -->
-    <div class="time"></div>
-</div>
 
 
-<script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script>
+    <script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script>
     <script src="script.js"></script>
     <script src="app.js"></script>
 </body>
+
 </html>
