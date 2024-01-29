@@ -594,6 +594,11 @@ video {
   z-index: 50;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ml-5 {
   margin-left: 1.25rem;
 }
