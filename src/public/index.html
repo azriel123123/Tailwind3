@@ -11,6 +11,20 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'>
+
+    <!--~~~~~~~~~~~~~~~ Favicon ~~~~~~~~~~~~~~~-->
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+  <!--~~~~~~~~~~~~~~~ Font Awesome ~~~~~~~~~~~~~~~-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--~~~~~~~~~~~~~~~ Remix Icon ~~~~~~~~~~~~~~~-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!--  Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <title>Document</title>
 </head>
 
@@ -21,7 +35,7 @@
     <!-- Loading End -->
 
     <!-- Navbar Start -->
-    <header class="sticky t-0 z-50">
+    <!-- <header class="sticky t-0 z-50">
         <nav class="container flex justify-between items-center">
             <div class="py-5 text-cyan-400 font-bold text-3xl">
                 <a href="#home">
@@ -41,10 +55,10 @@
                             class="bg-cyan-400 px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200">free
                             trial</button></li>
                 </ul>
-            </div>
+            </div> -->
 
             <!-- Mobile screen  -->
-            <div id="hamburger" class="lg:hidden cursor-pointer z-50 text-4xl mr-5">
+            <!-- <div id="hamburger" class="lg:hidden cursor-pointer z-50 text-4xl mr-5">
                 <i class="fa-solid fa-bars"></i>
             </div>
 
@@ -63,7 +77,90 @@
                 </ul>
             </div>
         </nav>
-    </header>
+    </header> -->
+
+    <header class="bg-primaryColor dark:bg-darkColor fixed top-0 left-0 w-full z-50" id="header">
+        <nav class="container relative h-14 flex justify-between items-center">
+          <div>
+            <a href="#" class="text-2xl uppercase  font-oswald">
+              Bur<span class="text-secondaryColor">ger</span>
+            </a>
+          </div>
+    
+          <div
+            class="hidden absolute top-0 left-0 w-full py-14 bg-primaryColor dark:bg-darkColor border-b border-secondaryColor md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto"
+            id="nav-menu">
+            <ul class="flex flex-col text-center gap-5 md:flex-row">
+              <li>
+                <a href="#home"
+                  class="nav__link text-secondaryColor hover:text-secondaryColor ease-in duration-200">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="nav__link hover:text-secondaryColor ease-in duration-200">About Us</a>
+              </li>
+              <li>
+                <a href="#menu" class="nav__link hover:text-secondaryColor ease-in duration-200">Menu</a>
+              </li>
+              <li>
+                <a href="#review" class="nav__link hover:text-secondaryColor ease-in duration-200">Review</a>
+              </li>
+              <li>
+                <a href="#contact" class="nav__link hover:text-secondaryColor ease-in duration-200">Contact</a>
+              </li>
+            </ul>
+    
+            <div class="absolute top-[0.7rem] right-4 text-2xl cursor-pointer md:hidden" id="nav-close">
+              <i class="ri-close-line"></i>
+            </div>
+          </div>
+    
+          <div class="flex items-center gap-5">
+            <i class="ri-moon-line cursor-pointer ml-4 text-xl" id="theme-toggle"></i>
+    
+            <div class="md:hidden" id="hamburger">
+              <i class="ri-menu-2-line cursor-pointer text-xl"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <!--~~~~~~~~~~~~~~~ Home ~~~~~~~~~~~~~~~-->
+        <section id="home">
+          <div class="container flex flex-col items-center gap-10 md:flex-row">
+            <div class="mx-auto md:basis-1/2 lg:basis-2/5 animate-movingY">
+              <img src="./img/home-image.png" alt="home image" class="home__image w-60 md:w-full">
+            </div>
+    
+            <div class="home__content text-center md:basis-1/2 md:text-start lg:basis-3/5">
+              <h1 class="home__title">HAPPY TUMMY WITH TASTY BURGERS.</h1>
+              <div class="separator mx-auto md:mx-0"></div>
+              <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,libero magni? Fugiat
+                perspiciatis eius, sequi aliquid ullam dolorem temporibus voluptate corrupti fugit saepe sunt unde culpa?
+                Tenetur quos quod laudantium.</p>
+              <div class="text-base flex items-center justify-center gap-4 py-10 md:justify-start md:gap-20">
+                <div class="text-center">
+                  <i class="fa-solid fa-utensils text-secondaryColor text-4xl"></i>
+                  <br />
+                  Delicious
+                </div>
+    
+                <div class="text-center">
+                  <i class="fa-solid fa-droplet text-secondaryColor text-4xl"></i>
+                  <br />
+                  Fresh
+                </div>
+    
+                <div class="text-center">
+                  <i class="fa-brands fa-envira text-secondaryColor text-4xl"></i>
+                  <br />
+                  Organic
+                </div>
+              </div>
+    
+              <a href="#" class="btn btn-primary">learn more</a>
+            </div>
+          </div>
+        </section>
     <!-- Navbar End -->
 
     <!-- carousel -->
