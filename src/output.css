@@ -635,6 +635,14 @@ section{
   z-index: 50;
 }
 
+.m-6{
+  margin: 1.5rem;
+}
+
+.m-2{
+  margin: 0.5rem;
+}
+
 .ml-4{
   margin-left: 1rem;
 }
@@ -677,6 +685,18 @@ section{
 
 .gap-5{
   gap: 1.25rem;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .border-b{
