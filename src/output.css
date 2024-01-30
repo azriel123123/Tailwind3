@@ -718,6 +718,16 @@ section{
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
+.bg-cyan-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 211 238 / var(--tw-bg-opacity));
+}
+
+.bg-gray-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
 .py-14{
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
