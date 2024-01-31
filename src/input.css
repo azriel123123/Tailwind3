@@ -25,7 +25,7 @@
     }
 
     .btn-primary {
-        @apply text-blackColor bg-gray-600 hover:opacity-75;
+        @apply text-blackColor bg-secondaryColor hover:opacity-75;
     }
 }
 
@@ -55,5 +55,5 @@
 
 .tabs_wrap ul li:hover,
 .tabs_wrap ul li.active {
-    @apply bg-gray-600 text-blackColor;
+    @apply bg-secondaryColor text-blackColor;
 }
