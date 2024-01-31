@@ -899,6 +899,11 @@ section{
   border-color: rgb(255 204 0 / var(--tw-border-opacity));
 }
 
+.border-lime-400{
+  --tw-border-opacity: 1;
+  border-color: rgb(163 230 53 / var(--tw-border-opacity));
+}
+
 .bg-blackColor{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -1059,6 +1064,11 @@ section{
 .text-secondaryColor{
   --tw-text-opacity: 1;
   color: rgb(255 204 0 / var(--tw-text-opacity));
+}
+
+.text-lime-400{
+  --tw-text-opacity: 1;
+  color: rgb(163 230 53 / var(--tw-text-opacity));
 }
 
 .shadow-sm{
