@@ -10,7 +10,7 @@
     }
     
     body {
-        @apply text-whiteColor bg-primaryColor tracking-wider font-dmsans dark:bg-darkColor;
+        @apply text-whiteColor bg-emerald-800 tracking-wider font-dmsans dark:bg-darkColor;
     }
 
     section {
@@ -25,7 +25,7 @@
     }
 
     .btn-primary {
-        @apply text-blackColor bg-secondaryColor hover:opacity-75;
+        @apply text-blackColor bg-gray-600 hover:opacity-75;
     }
 }
 
@@ -45,7 +45,7 @@
     }
 
     .separator {
-        @apply w-28 h-[2px] bg-secondaryColor my-5;
+        @apply w-28 h-[2px] bg-gray-600 my-5;
     }
 
     .paragraph {
@@ -55,5 +55,5 @@
 
 .tabs_wrap ul li:hover,
 .tabs_wrap ul li.active {
-    @apply bg-secondaryColor text-blackColor;
+    @apply bg-gray-600 text-blackColor;
 }
