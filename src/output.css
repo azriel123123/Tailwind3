@@ -709,6 +709,10 @@ section {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
 .grid {
   display: grid;
 }
@@ -941,6 +945,21 @@ section {
 .bg-secondaryColor {
   --tw-bg-opacity: 1;
   background-color: rgb(255 204 0 / var(--tw-bg-opacity));
+}
+
+.bg-lime-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 242 100 / var(--tw-bg-opacity));
+}
+
+.bg-lime-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(163 230 53 / var(--tw-bg-opacity));
+}
+
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 .p-2 {
