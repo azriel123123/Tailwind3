@@ -617,16 +617,6 @@ section {
   transition-timing-function: linear;
 }
 
-.btn-primary {
-  background-color: transparent;
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.btn-primary:hover {
-  opacity: 0.75;
-}
-
 .fixed {
   position: fixed;
 }
@@ -1140,19 +1130,14 @@ section {
   background-color: rgb(255 204 0 / var(--tw-bg-opacity));
 }
 
-.hover\:text-gray-600:hover {
+.hover\:text-gray-300:hover {
   --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
+  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .hover\:text-secondaryColor:hover {
   --tw-text-opacity: 1;
   color: rgb(255 204 0 / var(--tw-text-opacity));
-}
-
-.hover\:text-gray-300:hover {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .hover\:opacity-75:hover {
