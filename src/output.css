@@ -450,7 +450,7 @@ html {
 
 body {
   --tw-bg-opacity: 1;
-  background-color: rgb(5 150 105 / var(--tw-bg-opacity));
+  background-color: rgb(6 95 70 / var(--tw-bg-opacity));
   font-family: DM Sans, sans-serif;
   letter-spacing: 0.05em;
   --tw-text-opacity: 1;
@@ -1148,6 +1148,11 @@ section {
 .hover\:text-secondaryColor:hover {
   --tw-text-opacity: 1;
   color: rgb(255 204 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-300:hover {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .hover\:opacity-75:hover {

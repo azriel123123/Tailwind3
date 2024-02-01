@@ -9,7 +9,7 @@
     }
     
     body {
-        @apply text-whiteColor bg-emerald-600 tracking-wider font-dmsans dark:bg-darkColor;
+        @apply text-whiteColor bg-emerald-800 tracking-wider font-dmsans dark:bg-darkColor;
     }
 
     section {
