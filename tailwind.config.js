@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}",
-  require('flowbite/plugin')],
+  require('flowbite/plugin'), './src/**/*.{js,jsx,ts,tsx,vue}',],
   darkMode: 'class',
   theme: {
     screens: {
