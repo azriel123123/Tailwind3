@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js}",
-  "./node_modules/flowbite/**/*.js"],
+  content: ["./*.{html,js}"],
   darkMode: 'class',
   theme: {
     screens: {
@@ -43,7 +42,5 @@ module.exports = {
       dmsans: ['DM Sans', 'sans-serif']
     }
   },
-  plugins: [
-    require('flowbite/plugin')
-  ],
+  plugins: [],
 }
