@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Nunito:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -24,7 +25,7 @@
     }
 
     .btn-primary {
-        @apply text-blackColor bg-transparent hover:opacity-75;
+        @apply text-blackColor bg-secondaryColor hover:opacity-75;
     }
 }
 
