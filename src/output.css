@@ -1759,6 +1759,11 @@ section{
   background-color: rgb(164 202 254 / var(--tw-bg-opacity));
 }
 
+.bg-darkColor{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .p-1{
   padding: 0.25rem;
 }
