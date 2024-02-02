@@ -150,16 +150,16 @@
     }
 }
 .carousel .list .item:nth-child(1) .content .title{
-    animation-delay: 1.2s!important;
+    animation-delay: 2.2s!important;
 }
 .carousel .list .item:nth-child(1) .content .topic{
-    animation-delay: 1.4s!important;
+    animation-delay: 2.4s!important;
 }
 .carousel .list .item:nth-child(1) .content .des{
-    animation-delay: 1.6s!important;
+    animation-delay: 2.6s!important;
 }
 .carousel .list .item:nth-child(1) .content .buttons{
-    animation-delay: 1.8s!important;
+    animation-delay: 2.8s!important;
 }
 /* create animation when next click */
 .carousel.next .list .item:nth-child(1) img{
@@ -183,7 +183,7 @@
 
 .carousel.next .thumbnail .item:nth-last-child(1){
     overflow: hidden;
-    animation: showThumbnail .5s linear 1 forwards;
+    animation: showThumbnail 1.5s linear 1 forwards;
 }
 .carousel.prev .list .item img{
     z-index: 100;
