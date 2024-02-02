@@ -49,8 +49,8 @@
     margin-top: 20px;
 }
 .carousel .list .item .buttons button{
-    border: none;
-    background-color: #eee;
+    border: 1px solid #fff;
+    background-color: transparent;
     letter-spacing: 3px;
     font-family: Poppins;
     font-weight: 500;
