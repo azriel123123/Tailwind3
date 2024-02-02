@@ -734,10 +734,6 @@ section {
   width: 100%;
 }
 
-.w-2 {
-  width: 0.5rem;
-}
-
 .max-w-md {
   max-width: 28rem;
 }
@@ -870,10 +866,6 @@ section {
 
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.rounded-sm {
-  border-radius: 0.125rem;
 }
 
 .border-b {
