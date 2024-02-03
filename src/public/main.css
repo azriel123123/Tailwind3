@@ -60,6 +60,10 @@
     border: 1px solid #fff;
     color: #eee;
 }
+
+.carousel .list .item .buttons button:hover{
+    
+}
 /* thumbail */
 .thumbnail{
     position: absolute;
