@@ -1642,6 +1642,11 @@ section{
   border-top-right-radius: 0.25rem;
 }
 
+.rounded-t-full{
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
 .border{
   border-width: 1px;
 }
@@ -1763,6 +1768,11 @@ section{
 .bg-green-300{
   --tw-bg-opacity: 1;
   background-color: rgb(132 225 188 / var(--tw-bg-opacity));
+}
+
+.bg-cyan-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(103 232 249 / var(--tw-bg-opacity));
 }
 
 .bg-fixed{
