@@ -1755,6 +1755,11 @@ section{
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-lime-950{
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 46 5 / var(--tw-bg-opacity));
+}
+
 .bg-fixed{
   background-attachment: fixed;
 }
