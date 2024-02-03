@@ -1197,8 +1197,16 @@ section{
   z-index: 50;
 }
 
+.z-auto{
+  z-index: auto;
+}
+
 .col-span-2{
   grid-column: span 2 / span 2;
+}
+
+.m-6{
+  margin: 1.5rem;
 }
 
 .mx-auto{
@@ -1260,6 +1268,38 @@ section{
 
 .mt-2{
   margin-top: 0.5rem;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
+.mt-20{
+  margin-top: 5rem;
+}
+
+.mt-14{
+  margin-top: 3.5rem;
+}
+
+.mt-16{
+  margin-top: 4rem;
+}
+
+.mt-6{
+  margin-top: 1.5rem;
+}
+
+.ml-24{
+  margin-left: 6rem;
+}
+
+.mr-24{
+  margin-right: 6rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
 }
 
 .block{
@@ -1542,6 +1582,10 @@ section{
   gap: 1.25rem;
 }
 
+.gap-6{
+  gap: 1.5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1684,6 +1728,11 @@ section{
   border-color: rgb(255 204 0 / var(--tw-border-opacity));
 }
 
+.border-gray-600{
+  --tw-border-opacity: 1;
+  border-color: rgb(75 85 99 / var(--tw-border-opacity));
+}
+
 .bg-blackColor{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -1778,6 +1827,10 @@ section{
 
 .p-6{
   padding: 1.5rem;
+}
+
+.p-10{
+  padding: 2.5rem;
 }
 
 .px-2{
@@ -1969,6 +2022,11 @@ section{
   color: rgb(63 131 248 / var(--tw-text-opacity));
 }
 
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .opacity-0{
   opacity: 0;
 }
@@ -2153,6 +2211,16 @@ section{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-slate-600:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-600:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
 .hover\:text-blue-600:hover{
   --tw-text-opacity: 1;
   color: rgb(28 100 242 / var(--tw-text-opacity));
@@ -2288,6 +2356,11 @@ section{
 
 :is(.dark .dark\:bg-gray-900\/80){
   background-color: rgb(17 24 39 / 0.8);
+}
+
+:is(.dark .dark\:bg-lime-400){
+  --tw-bg-opacity: 1;
+  background-color: rgb(163 230 53 / var(--tw-bg-opacity));
 }
 
 :is(.dark .dark\:text-blue-500){
