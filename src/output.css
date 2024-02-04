@@ -2107,7 +2107,7 @@ section{
 .tabs_wrap ul li:hover,
 .tabs_wrap ul li.active{
   --tw-bg-opacity: 1;
-  background-color: rgb(255 204 0 / var(--tw-bg-opacity));
+  background-color: rgb(250 202 21 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }

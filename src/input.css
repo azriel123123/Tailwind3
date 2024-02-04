@@ -55,5 +55,5 @@
 
 .tabs_wrap ul li:hover,
 .tabs_wrap ul li.active {
-    @apply bg-secondaryColor text-blackColor;
+    @apply bg-yellow-300 text-blackColor;
 }
