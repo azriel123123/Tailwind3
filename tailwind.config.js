@@ -21,9 +21,6 @@ module.exports = {
         darkColor: '#000',
         darkColorLight: "#171717",
       },
-      boxShadow:{
-        boxShadowT: "0 4px 4px black",
-      },
       keyframes: {
         move: {
           "50%": {transform: 'translateY(-1rem)'}
