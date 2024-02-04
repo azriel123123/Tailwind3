@@ -1760,6 +1760,11 @@ section{
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-slate-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
 .p-1{
   padding: 0.25rem;
 }
