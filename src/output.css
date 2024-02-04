@@ -1977,6 +1977,11 @@ section{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-cyan-400{
+  --tw-text-opacity: 1;
+  color: rgb(34 211 238 / var(--tw-text-opacity));
+}
+
 .opacity-0{
   opacity: 0;
 }
