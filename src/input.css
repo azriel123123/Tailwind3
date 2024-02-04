@@ -25,7 +25,7 @@
     }
 
     .btn-primary {
-        @apply text-blackColor bg-secondaryColor hover:opacity-75;
+        @apply text-blackColor bg-yellow-300 hover:opacity-75;
     }
 }
 
@@ -45,7 +45,7 @@
     }
 
     .separator {
-        @apply w-28 h-[2px] bg-secondaryColor my-5;
+        @apply w-28 h-[2px] bg-yellow-300 my-5;
     }
 
     .paragraph {
