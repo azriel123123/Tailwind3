@@ -2330,6 +2330,15 @@ section{
   background-color: rgb(163 230 53 / var(--tw-bg-opacity));
 }
 
+:is(.dark .dark\:bg-black){
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:to-black){
+  --tw-gradient-to: #000000 var(--tw-gradient-to-position);
+}
+
 :is(.dark .dark\:text-blue-500){
   --tw-text-opacity: 1;
   color: rgb(63 131 248 / var(--tw-text-opacity));
