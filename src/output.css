@@ -1342,6 +1342,10 @@ section{
   height: calc(100% - 1rem);
 }
 
+.h-72{
+  height: 18rem;
+}
+
 .max-h-full{
   max-height: 100%;
 }
@@ -1392,6 +1396,10 @@ section{
 
 .w-6{
   width: 1.5rem;
+}
+
+.w-1{
+  width: 0.25rem;
 }
 
 .max-w-2xl{
