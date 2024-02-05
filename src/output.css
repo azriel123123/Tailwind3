@@ -1846,6 +1846,14 @@ section{
   padding-top: 1.25rem;
 }
 
+.pt-8{
+  padding-top: 2rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1966,11 +1974,6 @@ section{
 .text-yellow-300{
   --tw-text-opacity: 1;
   color: rgb(250 202 21 / var(--tw-text-opacity));
-}
-
-.text-cyan-300{
-  --tw-text-opacity: 1;
-  color: rgb(103 232 249 / var(--tw-text-opacity));
 }
 
 .opacity-0{
@@ -2186,11 +2189,6 @@ section{
 .hover\:text-yellow-300:hover{
   --tw-text-opacity: 1;
   color: rgb(250 202 21 / var(--tw-text-opacity));
-}
-
-.hover\:text-cyan-300:hover{
-  --tw-text-opacity: 1;
-  color: rgb(103 232 249 / var(--tw-text-opacity));
 }
 
 .hover\:opacity-75:hover{
