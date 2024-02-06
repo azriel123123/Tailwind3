@@ -2046,6 +2046,10 @@ section{
   color: rgb(190 242 100 / var(--tw-text-opacity));
 }
 
+.text-transparent{
+  color: transparent;
+}
+
 .opacity-0{
   opacity: 0;
 }
