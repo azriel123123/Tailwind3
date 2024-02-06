@@ -2016,6 +2016,16 @@ section{
   color: rgb(250 202 21 / var(--tw-text-opacity));
 }
 
+.text-gray-600{
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.text-lime-300{
+  --tw-text-opacity: 1;
+  color: rgb(190 242 100 / var(--tw-text-opacity));
+}
+
 .opacity-0{
   opacity: 0;
 }
@@ -2456,6 +2466,11 @@ section{
 
 :is(.dark .dark\:shadow-white){
   --tw-shadow-color: #ffffff;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+:is(.dark .dark\:shadow-lime-300){
+  --tw-shadow-color: #bef264;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
