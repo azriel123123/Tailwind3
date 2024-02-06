@@ -1197,6 +1197,18 @@ section{
   z-index: 50;
 }
 
+.order-3{
+  order: 3;
+}
+
+.order-1{
+  order: 1;
+}
+
+.order-2{
+  order: 2;
+}
+
 .col-span-2{
   grid-column: span 2 / span 2;
 }
@@ -2335,6 +2347,16 @@ section{
   --tw-ring-color: rgb(229 231 235 / var(--tw-ring-opacity));
 }
 
+@keyframes move{
+  50%{
+    transform: translateY(-1rem);
+  }
+}
+
+:is(.dark .dark\:animate-movingY){
+  animation: move 2s linear infinite;
+}
+
 :is(.dark .dark\:divide-gray-600) > :not([hidden]) ~ :not([hidden]){
   --tw-divide-opacity: 1;
   border-color: rgb(75 85 99 / var(--tw-divide-opacity));
@@ -2440,6 +2462,11 @@ section{
 :is(.dark .dark\:text-white){
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-cyan-300){
+  --tw-text-opacity: 1;
+  color: rgb(103 232 249 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:placeholder-gray-400)::-moz-placeholder{
