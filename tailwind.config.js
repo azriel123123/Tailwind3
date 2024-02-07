@@ -44,7 +44,6 @@ module.exports = {
     animation: {
       "neon" : "neon 1s ease-in-out infinite alternate",
     },
-    
   },
   plugins: [
     require('flowbite/plugin')
