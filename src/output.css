@@ -2362,6 +2362,20 @@ section{
   animation: neonBox 1s ease-in-out infinite alternate;
 }
 
+@keyframes neonText{
+  0%{
+    text-shadow: 0 0 10px #00B9FC;
+  }
+
+  100%{
+    text-shadow: 0 0 10px #ff0000;
+  }
+}
+
+:is(.dark .dark\:animate-neonText){
+  animation: neonText 1s ease-in-out infinite alternate;
+}
+
 :is(.dark .dark\:divide-gray-600) > :not([hidden]) ~ :not([hidden]){
   --tw-divide-opacity: 1;
   border-color: rgb(75 85 99 / var(--tw-divide-opacity));
