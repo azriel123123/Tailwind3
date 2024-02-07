@@ -47,13 +47,14 @@ module.exports = {
     keyframes:{
       neon: {
         "0%": {
-          boxShadow: "0 0 10px #00B9FC",
+          textShadow: "0 0 10px #00B9FC",
         },
         "100%": {
-          boxShadow: "0 0 10px #ff0000",
+          textShadow: "0 0 10px #ff0000",
         },
       },
     },
+    // Box Neon
   },
   plugins: [
     require('flowbite/plugin')
