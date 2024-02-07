@@ -2035,6 +2035,14 @@ section{
   opacity: 1;
 }
 
+.opacity-10{
+  opacity: 0.1;
+}
+
+.opacity-60{
+  opacity: 0.6;
+}
+
 .shadow{
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -2260,6 +2268,14 @@ section{
   opacity: 0.75;
 }
 
+.hover\:opacity-10:hover{
+  opacity: 0.1;
+}
+
+.hover\:opacity-0:hover{
+  opacity: 0;
+}
+
 .hover\:shadow-md:hover{
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -2316,10 +2332,19 @@ section{
   --tw-ring-color: rgb(229 231 235 / var(--tw-ring-opacity));
 }
 
+.group:hover .group-hover\:z-10{
+  z-index: 10;
+}
+
 .group:hover .group-hover\:scale-150{
   --tw-scale-x: 1.5;
   --tw-scale-y: 1.5;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:bg-slate-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:text-black{
@@ -2333,6 +2358,14 @@ section{
 
 .group:hover .group-hover\:opacity-100{
   opacity: 1;
+}
+
+.group:hover .group-hover\:opacity-10{
+  opacity: 0.1;
+}
+
+.group:hover .group-hover\:opacity-20{
+  opacity: 0.2;
 }
 
 .group:hover .group-hover\:duration-150{
