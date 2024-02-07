@@ -108,9 +108,9 @@ const scrollHeader = () => {
   const header = document.getElementById("header");
 
   if (this.scrollY >= 50) {
-    header.classList.add("border-b", "border-secondaryColor");
+    header.classList.add("border-b", "animate-neonBorder");
   } else {
-    header.classList.remove("border-b", "border-secondaryColor");
+    header.classList.remove("border-b", "animate-neonBorder");
   }
 };
 window.addEventListener("scroll", scrollHeader);
@@ -131,9 +131,9 @@ const activeLink = () => {
   });
 
   navLinks.forEach((item) => {
-    item.classList.remove("text-secondaryColor");
+    item.classList.remove("text-gray-400");
     if (item.href.includes(current)) {
-      item.classList.add("text-secondaryColor");
+      item.classList.add("text-gray-400");
     }
   });
 };

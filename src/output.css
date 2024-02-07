@@ -1478,6 +1478,20 @@ section{
   animation: move 2s linear infinite;
 }
 
+@keyframes neonBox{
+  0%{
+    box-shadow: 0 0 10px #00B9FC;
+  }
+
+  100%{
+    box-shadow: 0 0 10px #ff0000;
+  }
+}
+
+.animate-neonBorder{
+  animation: neonBox 1s ease-in-out infinite alternate;
+}
+
 .cursor-default{
   cursor: default;
 }
@@ -1722,11 +1736,6 @@ section{
 .border-gray-300{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
-}
-
-.border-secondaryColor{
-  --tw-border-opacity: 1;
-  border-color: rgb(255 204 0 / var(--tw-border-opacity));
 }
 
 .bg-blackColor{

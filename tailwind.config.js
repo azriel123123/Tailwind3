@@ -45,6 +45,7 @@ module.exports = {
     animation: {
       "neonText" : "neonText 1s ease-in-out infinite alternate",
       "neonBox" : "neonBox 1s ease-in-out infinite alternate",
+      "neonBorder" : "neonBox 1s ease-in-out infinite alternate",
     },
     keyframes:{
       neonText: {
@@ -61,6 +62,14 @@ module.exports = {
         },
         "100%": {
           boxShadow: "0 0 10px #ff0000",
+        },
+      },
+      neonBorder: {
+        "0%": {
+          borderShadow: "0 0 10px #00B9FC",
+        },
+        "100%": {
+          borderShadow: "0 0 10px #ff0000",
         },
       },
     }
