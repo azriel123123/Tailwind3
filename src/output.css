@@ -1270,6 +1270,18 @@ section{
   margin-top: 2rem;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
+.mb-32{
+  margin-bottom: 8rem;
+}
+
 .block{
   display: block;
 }
