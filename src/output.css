@@ -2518,6 +2518,11 @@ section{
   --tw-ring-color: rgb(75 85 99 / var(--tw-ring-opacity));
 }
 
+:is(.dark .group:hover .dark\:group-hover\:text-white){
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @media (min-width: 480px){
   .sm\:col-span-1{
     grid-column: span 1 / span 1;
