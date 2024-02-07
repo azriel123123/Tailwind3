@@ -41,9 +41,10 @@ module.exports = {
       oswald: ['Oswald', 'sans-serif'],
       dmsans: ['DM Sans', 'sans-serif']
     },
-    // Text Neon
+    // Animate Neon
     animation: {
       "neonText" : "neonText 1s ease-in-out infinite alternate",
+      "neonBox" : "neonBox 1s ease-in-out infinite alternate",
     },
     keyframes:{
       neonText: {
@@ -54,12 +55,6 @@ module.exports = {
           textShadow: "0 0 10px #ff0000",
         },
       },
-    },
-    // Box Neon
-    animation: {
-      "neonBox" : "neonBox 1s ease-in-out infinite alternate",
-    },
-    keyframes:{
       neonBox: {
         "0%": {
           boxShadow: "0 0 10px #00B9FC",
@@ -68,7 +63,7 @@ module.exports = {
           boxShadow: "0 0 10px #ff0000",
         },
       },
-    },
+    }
   },
   plugins: [
     require('flowbite/plugin')
