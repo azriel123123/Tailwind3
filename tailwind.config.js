@@ -40,7 +40,10 @@ module.exports = {
     fontFamily: {
       oswald: ['Oswald', 'sans-serif'],
       dmsans: ['DM Sans', 'sans-serif']
-    }
+    },
+    animation: {
+      "neon" : "neon 1s ease-in-out infinite alternate",
+    },
   },
   plugins: [
     require('flowbite/plugin')
