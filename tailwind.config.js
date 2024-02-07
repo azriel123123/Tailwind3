@@ -55,8 +55,6 @@ module.exports = {
       },
     },
   },
-  // box Shadow
-  
   plugins: [
     require('flowbite/plugin')
   ],
