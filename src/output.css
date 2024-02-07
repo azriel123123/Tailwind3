@@ -1201,10 +1201,6 @@ section{
   grid-column: span 2 / span 2;
 }
 
-.float-right{
-  float: right;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -2331,6 +2327,14 @@ section{
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.group:hover .group-hover\:opacity-0{
+  opacity: 0;
+}
+
+.group:hover .group-hover\:opacity-100{
+  opacity: 1;
+}
+
 .group:hover .group-hover\:duration-150{
   transition-duration: 150ms;
 }
@@ -2537,10 +2541,6 @@ section{
 @media (min-width: 480px){
   .sm\:col-span-1{
     grid-column: span 1 / span 1;
-  }
-
-  .sm\:hidden{
-    display: none;
   }
 }
 

@@ -41,6 +41,7 @@ module.exports = {
       oswald: ['Oswald', 'sans-serif'],
       dmsans: ['DM Sans', 'sans-serif']
     },
+    // Text Neon
     animation: {
       "neon" : "neon 1s ease-in-out infinite alternate",
     },
@@ -55,6 +56,19 @@ module.exports = {
       },
     },
     // Box Neon
+    animation: {
+      "neon" : "neon 1s ease-in-out infinite alternate",
+    },
+    keyframes:{
+      neon: {
+        "0%": {
+          boxShadow: "0 0 10px #00B9FC",
+        },
+        "100%": {
+          boxShadow: "0 0 10px #ff0000",
+        },
+      },
+    },
   },
   plugins: [
     require('flowbite/plugin')
