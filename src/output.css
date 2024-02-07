@@ -1468,20 +1468,6 @@ section{
   transform: none;
 }
 
-@keyframes neonBox{
-  0%{
-    box-shadow: 0 0 10px #00B9FC;
-  }
-
-  100%{
-    box-shadow: 0 0 10px #ff0000;
-  }
-}
-
-.animate-\[neonBox\]{
-  animation: neonBox;
-}
-
 @keyframes move{
   50%{
     transform: translateY(-1rem);
@@ -2360,6 +2346,12 @@ section{
 
 .group:hover .group-hover\:duration-150{
   transition-duration: 150ms;
+}
+
+:is(.dark .dark\:scale-110){
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @keyframes move{
