@@ -66,10 +66,10 @@ module.exports = {
       },
       neonBorder: {
         "0%": {
-          borderShadow: "0 0 20px #00B9FC",
+          borderShadow: "10px 10px 20px #00B9FC",
         },
         "100%": {
-          borderShadow: "0 0 20px #ff0000",
+          borderShadow: "10px 10px 20px #ff0000",
         },
       },
     }
