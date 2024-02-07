@@ -2264,6 +2264,10 @@ section{
   opacity: 0.75;
 }
 
+.hover\:opacity-50:hover{
+  opacity: 0.5;
+}
+
 .hover\:shadow-md:hover{
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -2331,12 +2335,22 @@ section{
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.group:hover .group-hover\:opacity-100{
+  opacity: 1;
+}
+
 .group:hover .group-hover\:duration-150{
   transition-duration: 150ms;
 }
 
-:is(.dark .dark\:animate-neon){
-  animation: neon 1s ease-in-out infinite alternate;
+@keyframes move{
+  50%{
+    transform: translateY(-1rem);
+  }
+}
+
+:is(.dark .dark\:animate-movingY){
+  animation: move 2s linear infinite;
 }
 
 :is(.dark .dark\:divide-gray-600) > :not([hidden]) ~ :not([hidden]){
