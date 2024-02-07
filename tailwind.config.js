@@ -43,10 +43,10 @@ module.exports = {
     },
     // Text Neon
     animation: {
-      "neon" : "neon 1s ease-in-out infinite alternate",
+      "neonText" : "neonText 1s ease-in-out infinite alternate",
     },
     keyframes:{
-      neon: {
+      neonText: {
         "0%": {
           textShadow: "0 0 10px #00B9FC",
         },
