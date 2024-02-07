@@ -44,6 +44,16 @@ module.exports = {
     animation: {
       "neon" : "neon 1s ease-in-out infinite alternate",
     },
+    keyframes:{
+      neon: {
+        "0%": {
+          textShadow: "0 0 10px #00B9FC",
+        },
+        "100%": {
+          textShadow: "0 0 10px #ff0000",
+        },
+      },
+    },
   },
   plugins: [
     require('flowbite/plugin')
