@@ -47,10 +47,10 @@ module.exports = {
     keyframes:{
       neon: {
         "0%": {
-          textShadow: "0 0 10px #00B9FC",
+          boxShadow: "0 0 10px #00B9FC",
         },
         "100%": {
-          textShadow: "0 0 10px #ff0000",
+          boxShadow: "0 0 10px #ff0000",
         },
       },
     },
