@@ -1468,6 +1468,20 @@ section{
   transform: none;
 }
 
+@keyframes neonBox{
+  0%{
+    box-shadow: 0 0 10px #00B9FC;
+  }
+
+  100%{
+    box-shadow: 0 0 10px #ff0000;
+  }
+}
+
+.animate-\[neonBox\]{
+  animation: neonBox;
+}
+
 @keyframes move{
   50%{
     transform: translateY(-1rem);
@@ -1476,6 +1490,20 @@ section{
 
 .animate-movingY{
   animation: move 2s linear infinite;
+}
+
+@keyframes neonBox{
+  0%{
+    box-shadow: 0 0 10px #00B9FC;
+  }
+
+  100%{
+    box-shadow: 0 0 10px #ff0000;
+  }
+}
+
+.animate-neonBox{
+  animation: neonBox 1s ease-in-out infinite alternate;
 }
 
 .cursor-default{

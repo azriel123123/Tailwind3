@@ -57,7 +57,7 @@ module.exports = {
     },
     // Box Neon
     animation: {
-      "neonBox" : "neon 1s ease-in-out infinite alternate",
+      "neonBox" : "neonBox 1s ease-in-out infinite alternate",
     },
     keyframes:{
       neonBox: {
