@@ -2575,8 +2575,16 @@ section{
     display: flex;
   }
 
+  .sm\:grid{
+    display: grid;
+  }
+
   .sm\:w-full{
     width: 100%;
+  }
+
+  .sm\:grid-cols-1{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .sm\:items-center{
